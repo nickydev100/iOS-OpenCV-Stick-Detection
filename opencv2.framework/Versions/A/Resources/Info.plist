@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>OpenCV</string>
+    <key>CFBundleIdentifier</key>
+    <string>org.opencv</string>
+    <key>CFBundleVersion</key>
+<<<<<<< HEAD
+    <string>3.4.1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.4.1</string>
+=======
+    <string>3.4.5</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.4.5</string>
+>>>>>>> 39623597238bfdafb23702f28f31f729737a6c36
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundlePackageType</key>
+    <string>FMWK</string>
+</dict>
+</plist>

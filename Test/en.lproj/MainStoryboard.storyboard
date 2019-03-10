@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="4096" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O40-rS-cGA"/>
+                        <viewControllerLayoutGuide type="bottom" id="oyG-hA-XBh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nvt-He-f5J">
+                                <rect key="frame" x="0.0" y="20" width="375" height="568"/>
+                                <color key="backgroundColor" red="0.30688055073490372" green="0.95280299245925981" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                            </imageView>
+<<<<<<< HEAD
+                            <button opaque="NO" alpha="0.70000000000000007" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49q-1s-krn">
+                                <rect key="frame" x="42" y="611" width="137" height="30"/>
+=======
+                            <view hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PlW-Ar-ucg">
+                                <rect key="frame" x="0.0" y="20" width="375" height="568"/>
+                            </view>
+                            <button opaque="NO" alpha="0.70000000000000007" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49q-1s-krn">
+                                <rect key="frame" x="42" y="611" width="80" height="30"/>
+>>>>>>> 39623597238bfdafb23702f28f31f729737a6c36
+                                <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Load Image">
+                                    <color key="titleColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="LoadImage:" destination="2" eventType="touchUpInside" id="5Yh-Vq-JYc"/>
+                                </connections>
+                            </button>
+<<<<<<< HEAD
+                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPY-vZ-RCt">
+                                <rect key="frame" x="199" y="611" width="131" height="30"/>
+=======
+                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPY-vZ-RCt">
+                                <rect key="frame" x="275" y="611" width="55" height="30"/>
+>>>>>>> 39623597238bfdafb23702f28f31f729737a6c36
+                                <color key="backgroundColor" red="0.66666668650000005" green="0.66666668650000005" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Process">
+                                    <color key="titleColor" red="0.33333334329999997" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.66666668650000005" green="0.66666668650000005" blue="0.66666668650000005" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="processImage:" destination="2" eventType="touchUpInside" id="r4O-2o-kUA"/>
+                                </connections>
+                            </button>
+<<<<<<< HEAD
+=======
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKi-g0-qD1">
+                                <rect key="frame" x="160.5" y="611" width="54" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GJQ-NF-eYm"/>
+                                </constraints>
+                                <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="toggleCamera:" destination="2" eventType="touchUpInside" id="H1C-wR-wh1"/>
+                                </connections>
+                            </button>
+>>>>>>> 39623597238bfdafb23702f28f31f729737a6c36
+                        </subviews>
+                        <color key="backgroundColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Nvt-He-f5J" secondAttribute="trailing" id="3cm-gA-FJb"/>
+                            <constraint firstItem="49q-1s-krn" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="26" id="HPm-UR-gNQ"/>
+                            <constraint firstItem="oyG-hA-XBh" firstAttribute="top" secondItem="49q-1s-krn" secondAttribute="bottom" constant="26" id="Lq6-3P-cXG"/>
+                            <constraint firstItem="oyG-hA-XBh" firstAttribute="top" secondItem="KPY-vZ-RCt" secondAttribute="bottom" constant="26" id="RkP-Rr-5Dh"/>
+<<<<<<< HEAD
+                            <constraint firstItem="oyG-hA-XBh" firstAttribute="top" secondItem="Nvt-He-f5J" secondAttribute="bottom" constant="79" id="ft1-Gs-GDC"/>
+                            <constraint firstItem="49q-1s-krn" firstAttribute="top" secondItem="Nvt-He-f5J" secondAttribute="bottom" constant="23" id="hi6-Ip-aBh"/>
+                            <constraint firstItem="KPY-vZ-RCt" firstAttribute="top" secondItem="Nvt-He-f5J" secondAttribute="bottom" constant="23" id="o9w-9Q-1Fd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KPY-vZ-RCt" secondAttribute="trailing" constant="29" id="rxx-ba-yGb"/>
+=======
+                            <constraint firstItem="PlW-Ar-ucg" firstAttribute="leading" secondItem="Nvt-He-f5J" secondAttribute="leading" id="UYE-SA-Ip0"/>
+                            <constraint firstItem="PlW-Ar-ucg" firstAttribute="bottom" secondItem="Nvt-He-f5J" secondAttribute="bottom" id="XS3-hL-w5p"/>
+                            <constraint firstItem="PlW-Ar-ucg" firstAttribute="top" secondItem="Nvt-He-f5J" secondAttribute="top" id="cjT-iR-1Re"/>
+                            <constraint firstItem="oyG-hA-XBh" firstAttribute="top" secondItem="Nvt-He-f5J" secondAttribute="bottom" constant="79" id="ft1-Gs-GDC"/>
+                            <constraint firstItem="PlW-Ar-ucg" firstAttribute="trailing" secondItem="Nvt-He-f5J" secondAttribute="trailing" id="gka-N3-HMF"/>
+                            <constraint firstItem="49q-1s-krn" firstAttribute="top" secondItem="Nvt-He-f5J" secondAttribute="bottom" constant="23" id="hi6-Ip-aBh"/>
+                            <constraint firstItem="KPY-vZ-RCt" firstAttribute="top" secondItem="Nvt-He-f5J" secondAttribute="bottom" constant="23" id="o9w-9Q-1Fd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KPY-vZ-RCt" secondAttribute="trailing" constant="29" id="rxx-ba-yGb"/>
+                            <constraint firstItem="oyG-hA-XBh" firstAttribute="top" secondItem="OKi-g0-qD1" secondAttribute="bottom" constant="26" id="sja-Zp-Zhs"/>
+                            <constraint firstItem="OKi-g0-qD1" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="sp8-kQ-rIp"/>
+>>>>>>> 39623597238bfdafb23702f28f31f729737a6c36
+                            <constraint firstItem="Nvt-He-f5J" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="tv5-Ed-O4y"/>
+                            <constraint firstItem="Nvt-He-f5J" firstAttribute="top" secondItem="O40-rS-cGA" secondAttribute="bottom" id="xiC-eu-eys"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="baghaView" destination="Nvt-He-f5J" id="gul-gm-6sq"/>
+<<<<<<< HEAD
+=======
+                        <outlet property="cameraView" destination="PlW-Ar-ucg" id="XqX-Oe-Uca"/>
+>>>>>>> 39623597238bfdafb23702f28f31f729737a6c36
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="pd8-p4-NjS">
+                    <connections>
+                        <action selector="handlePan:" destination="2" id="gJh-k5-BhW"/>
+                        <outlet property="delegate" destination="2" id="aNo-2V-5YO"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="24W-OG-TU9"/>
+                <pinchGestureRecognizer id="z5k-tc-k9W">
+                    <connections>
+                        <action selector="handlePinch:" destination="2" id="Rux-AY-NLb"/>
+                        <outlet property="delegate" destination="2" id="0Uq-5r-hv4"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="l99-x9-I0a"/>
+            </objects>
+            <point key="canvasLocation" x="-500" y="-599.55022488755628"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Default.png" width="320" height="568"/>
+    </resources>
+</document>
